@@ -1,8 +1,10 @@
-# Swap Token + KiteAI
+# KiteSwap (Swap Token with KiteAI)
 
 Swap Token Dapp is a decentralized application (dApp) built on the Kite AI chain using React Vite, Tailwind CSS, Ethers.js and AppKit (Web3Modal). It allows users to swap between KITE (native token) and USDT (ERC‑20 token) in a fast, user-friendly interface.
 
-### App URL: https://swipe-token-dapp.vercel.app/
+### App URL: https://kite-swap.vercel.app/
+
+### Medium Article URL: https://medium.com/@bhalsodkhushal/swap-token-dapp-a-seamless-kite-to-usdt-swap-experience-on-kite-ai-chain-3105b81c1120
 
 ## Features
 
@@ -27,8 +29,8 @@ Swap Token Dapp is a decentralized application (dApp) built on the Kite AI chain
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/bhalsodkhushal/swipe-token-dapp
-   cd swipe-token-dapp
+   git clone https://github.com/bhalsodkhushal/kite-swap
+   cd kite-swap
    ```
 2. Install dependencies:
    ```sh

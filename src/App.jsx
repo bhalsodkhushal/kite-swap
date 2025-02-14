@@ -49,7 +49,7 @@ const projectId = "decdce0f2dff78aa2012c38c0072ef06";
 const metadata = {
   name: "Swap Token + KiteAI",
   description: "Swap token for KiteAI",
-  url: "https://swipe-token-dapp.vercel.app/",
+  url: "https://kite-swap.vercel.app/",
 };
 
 createAppKit({
