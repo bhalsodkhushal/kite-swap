@@ -1,6 +1,6 @@
 # Swap Token + KiteAI
 
-Swap Token Dapp is a decentralized application (dApp) built on the Kite AI chain using React Vite, Tailwind CSS, and Ethers.js. It allows users to swap between KITE (native token) and USDT (ERC‑20 token) in a fast, user-friendly interface.
+Swap Token Dapp is a decentralized application (dApp) built on the Kite AI chain using React Vite, Tailwind CSS, Ethers.js and AppKit (Web3Modal). It allows users to swap between KITE (native token) and USDT (ERC‑20 token) in a fast, user-friendly interface.
 
 ## Features
 
@@ -9,13 +9,15 @@ Swap Token Dapp is a decentralized application (dApp) built on the Kite AI chain
 - **Kite AI Integration**: Seamlessly interacts with the Kite AI (Testnet) environment.
 - **React & Vite**: A lightweight setup for rapid development and loading speeds.
 - **Tailwind CSS**: A utility-first CSS framework for a clean, responsive UI.
-- **Ethers.js**: For blockchain interactions, contract calls, and wallet connectivity.
+- **Ethers.js**: For blockchain interactions and contract calls.
+- **Reown AppKit (Web3Modal)**: A flexible multi-wallet connect solution, supporting MetaMask and other EIP-1193 providers.
 
 ## Tech Stack
 
 - **Frontend**: React + Vite
 - **Styling**: Tailwind CSS
 - **Blockchain Integration**: Ethers.js
+- **Wallet Connect**: Reown AppKit (Web3Modal)
 - **Smart Contracts**: Solidity (NativeERC20Swap)
 - **Block chain**: Kite AI (Testnet)
 
@@ -37,20 +39,19 @@ Swap Token Dapp is a decentralized application (dApp) built on the Kite AI chain
 
 ## Usage
 
-#### Connect Your Wallet:
+#### Connect Your Wallet via Reown AppKit:
 
-- Use MetaMask or a compatible wallet.
-- Add the Kite AI Testnet as a custom RPC in MetaMask.
+- Open the dApp in your browser at http://localhost:3000 (or the port listed in your terminal).
+- Click “Connect Wallet” - the Reown AppKit flow will prompt you to select or connect a wallet.
+- Make sure to add the Kite AI Testnet to your wallet as a custom RPC if not already present.
+
+#### Kite AI Testnet Details (for MetaMask or other wallets):
 
 ```sh
 Chain name: KiteAI Testnet
-
 Default RPC URL - https://rpc-testnet.gokite.ai/
-
 Chain ID: 2368
-
 Token: KITE
-
 Block Explorer URL - https://testnet.kitescan.ai/
 ```
 
@@ -58,11 +59,6 @@ Block Explorer URL - https://testnet.kitescan.ai/
 
 - Visit the KiteAI Faucet platform (https://faucet.gokite.ai/).
 - Follow the instructions to obtain KITE and USDT tokens.
-
-#### Run the DApp:
-
-- Open your browser at http://localhost:3000 (or the port listed in your terminal).
-- Click “Connect Wallet” to connect your Kite AI wallet.
 
 #### Swapping KITE → USDT:
 
@@ -81,3 +77,9 @@ Block Explorer URL - https://testnet.kitescan.ai/
 
 - The UI will display your current KITE and USDT balances.
 - After each swap, your wallet balance updates automatically.
+
+### Sample Performed Transactions:
+
+You can view all transactions and contract interactions on [KiteScan](https://testnet.kitescan.ai/) by visiting the following address:
+
+[https://testnet.kitescan.ai/address/0x990d66D4D00679c7201bA1EEC5265031358f16F8](https://testnet.kitescan.ai/address/0x990d66D4D00679c7201bA1EEC5265031358f16F8)
